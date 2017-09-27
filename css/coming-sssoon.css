@@ -925,3 +925,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 
 }
+
+#logo-goutatou {
+    margin-bottom: 50px;
+    width: 10%;
+    height: 10%;
+}
+
+.produit {
+    margin-top: 100px;
+}
