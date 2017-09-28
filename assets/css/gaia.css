@@ -3754,3 +3754,7 @@ body {
 .btn-notify {
   margin-bottom: 28px;
 }
+
+.title{
+  display: inline-block;
+}
