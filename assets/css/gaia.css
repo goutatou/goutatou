@@ -3746,3 +3746,11 @@ body {
   position: absolute;
   margin: 200px 200px 200px 200px;
 }
+
+.mail-form {
+  margin-top: 50px;
+}
+
+.btn-notify {
+  margin-bottom: 5px;
+}
