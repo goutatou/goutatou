@@ -966,7 +966,7 @@ a,
   position: relative;
 }
 .section .title-area {
-  max-width: 760px;
+  max-width: 820px;
   margin: 0 auto 70px;
   display: block;
   padding: 0 15px;
@@ -3762,4 +3762,8 @@ body {
 .mylogo {
   width: 50%;
   height: 50%;
+}
+
+.top-title-second {
+  margin-top: 20px;
 }
