@@ -598,7 +598,7 @@ a,
 .btn-danger.btn-fill,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill {
   color: #FFFFFF;
-  background-color: #e78b90;
+  background-color: #fd000e;
   opacity: 1;
   filter: alpha(opacity=100);
 }
