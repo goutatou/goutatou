@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	mixpanel.track("Visite");
+
 	$( "#button-email" ).click(function() {
 	  	var email = $("#input-email").val();
 
@@ -8,6 +10,8 @@ $(document).ready(function(){
 	  	mixpanel.people.set({
 		    "$email": email
 		});
+
+		mixpanel.track("Email enregistré");
 
 		// Get the snackbar DIV
 	    var x = document.getElementById("snackbar")
