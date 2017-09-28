@@ -21,6 +21,7 @@
 0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
 for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
 mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
+
 </head>
 
 <body>
@@ -39,7 +40,7 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li>
-                        <a href="" target="_blank">Buy the products</a>
+                        <a href="#products">Buy the products</a>
                     </li>
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -69,21 +70,33 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
             <div class="container">
                 <div class="content ">
                     <div class="title-area">
-                        <h1 class="title-modern">Goutatou</h1>
+                        <h1 class="title-modern">Goûtatou</h1>
                         <div class="separator line-separator">♦</div>
                         <h2>Indécis, peur d'être déçu devant un menu ?<br>Goûtatou est fait pour vous, utilisez vos sens avant tout!</h2>
+                    </div>  <div class="subscribe">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 mail-form">
+                            <form class="form-inline" role="form">
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                    <input type="email" class="form-control transparent" placeholder="Your email here...">
+                                </div>
+                              <button type="submit" class="btn btn-warning btn-fill btn-notify">Notify Me</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-
+                </div>
+               
             </div>
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="products">
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                    <h2>Our Services</h2>
+                    <h2>Nos produits</h2>
                     <div class="separator separator-danger">✻</div>
                     <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
                 </div>
@@ -92,27 +105,27 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
                 <div class="col-md-4">
                     <div class="info-icon">
                         <div class="icon text-danger">
-                            <i class="pe-7s-graph1"></i>
+                             <img src="./assets/img/produits/how_diffuser.png" height="75" width="75">
                         </div>
-                        <h3>Sales</h3>
+                        <h3>Diffuser</h3>
                         <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="info-icon">
                         <div class="icon text-danger">
-                            <i class="pe-7s-note2"></i>
+                            <img src="./assets/img/produits/how_cocktail.png" height="75" width="75">
                         </div>
-                        <h3>Content</h3>
+                        <h3>Cocktail</h3>
                         <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="info-icon">
                         <div class="icon text-danger">
-                            <i class="pe-7s-music"></i>
+                            <img src="./assets/img/produits/how_food.png" height="75" width="75">
                         </div>
-                        <h3>Music</h3>
+                        <h3>Food</h3>
                         <p class="description">We like to present the world with our work, so we make sure we spread the word regarding our clothes.</p>
                     </div>
                 </div>
@@ -129,9 +142,9 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
                 <div class="content">
                     <div class="row">
                         <div class="title-area">
-                            <h2>Who We Are</h2>
+                            <h2>Utilisez vos sens</h2>
                             <div class="separator separator-danger">✻</div>
-                            <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
+                            <p class="description"></p>
                         </div>
                     </div>
 
@@ -143,12 +156,10 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                                                    <img alt="..." class="img-circle" src="assets/img/produits/pn_site_senses_02.png"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Tina</h3>
-                                                    <p class="small-text">CEO / Co-Founder</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                    <h3 class="title">Goût</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -157,12 +168,10 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_4.jpg"/>
+                                                    <img alt="..." class="img-circle" src="assets/img/produits/pn_site_senses_01.png"/> 
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Andrew</h3>
-                                                    <p class="small-text">Product Designer</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                    <h3 class="title">Vue</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -171,12 +180,10 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_3.jpg"/>
+                                                    <img alt="..." class="img-circle" src="assets/img/produits/pn_site_senses_03.png"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Michelle</h3>
-                                                    <p class="small-text">Marketing Hacker</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                    <h3 class="title">Odorat</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -269,73 +276,6 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
     <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Company</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a></li>
-                                <li>
-                                    <a href="#">Find offers</a>
-                                </li>
-                                <li>
-                                    <a href="#">Discover Projects</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title"> Help and Support</h5>
-                         <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms &amp; Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Company Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Money Back</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Latest News</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
-                                        <hr class="hr-small">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
                 <div class="col-md-2 col-md-offset-1 col-sm-3">
                     <div class="info">
                         <h5 class="title">Follow us on</h5>
@@ -368,7 +308,7 @@ mixpanel.init("552aacb7446e47c132ebcbafe7b9be1c");</script><!-- end Mixpanel -->
             </div>
             <hr>
             <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script> Creative Tim, made with love
+                 © <script> document.write(new Date().getFullYear()) </script> Team Goutatou, made with love for food
             </div>
         </div>
     </footer>
