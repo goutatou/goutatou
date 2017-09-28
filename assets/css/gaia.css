@@ -1643,7 +1643,7 @@ a,
   margin-top: 10px;
 }
 .footer-big .container > hr {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .footer-big .copyright {
   margin: 10px 0px 20px;
@@ -3757,4 +3757,9 @@ body {
 
 .title{
   display: inline-block;
+}
+
+.mylogo {
+  width: 50%;
+  height: 50%;
 }
